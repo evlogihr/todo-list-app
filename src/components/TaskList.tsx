@@ -29,6 +29,7 @@ const TaskList: React.FC = () => {
         };
         setTasks((prevTasks) => [...prevTasks, newTask]);
         setNewTaskTitle('');
+        setNewTaskDescription('');
     };
 
     const toggleComplete = (id: string) => {
